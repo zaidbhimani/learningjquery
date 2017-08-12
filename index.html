@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<style>
+			.foo {
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div>
+		 <div class="btn1" data-address="marol">Student 1</div>
+		 <div class="btn2" data-address="Andheri">Student 2</div>
+		 <div class="btn3" data-address="Mumbai">Student 3</div>
+		</div>	
+
+		<div class="content"></div>
+	
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		$(function(){
+			
+			//Data Structure
+			/*
+			// Array - Object
+			var person = { 
+				//key : //Value  = Property
+				name:"Shoaib",
+			   age:4,
+			   getName:function(){
+			   	  alert(person.name)
+			   }
+			}
+
+			//person.getName()
+
+			//Attached Event on Student HTML Element
+
+			$('.btn').on('click', function(evt){
+
+				//Figure out which Student is clicked
+				var studentClicked = $(evt.target)
+
+				//then find out clicked students Address 
+				var address = studentClicked.attr('data-address')
+
+				//Add Student Address to content HTML element
+				$(".content").text(address)
+
+
+			})
+			*/
+
+			$(".btn1").on("click", function(){
+				var address = $(".btn1").attr("data-address")
+				$(".content").text(address)
+			})
+
+			$(".btn2").on("click", function(){
+				var address = $(".btn2").attr("data-address")
+				$(".content").text(address)
+			})
+
+			$(".btn3").on("click", function(){
+				//var address = $(".btn3").attr("data-address")
+				$(".btn3").attr("class","foo")
+				//$(".content").text(address)
+
+			})
+			
+			
+
+
+
+		})
+	</script>
+	
+	</body>
+	</html>	

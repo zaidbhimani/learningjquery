@@ -1,0 +1,157 @@
+<!DOCtype.html>
+<html>
+<head>
+<style>
+*{
+	/*border:1px solid red;*/
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+width:5%;
+height:5%;
+float:left;
+}	
+
+.btn-2 {
+width:5%;
+height:5%;
+float:left;
+}	
+
+.btn-3{
+width:5%;
+height:5%;
+float:left;
+}	
+
+.btn button {
+    width: 100%;
+    height: 100%;
+}	
+
+.btn-2 button {
+    width: 100%;
+    height: 100%;
+}	
+
+.btn-3 button{
+    width: 100%;
+    height:100%;
+}	
+
+.box2{
+	margin-top:10%;
+}
+
+.panel-1{
+	width:10%;
+	float:left;
+	border:2px solid black;
+	display:none;
+
+	
+}
+
+.panel-2{
+	width:10%;
+	float:left;
+	border:2px solid black;
+	margin-left:10%;
+	display:none;
+
+}
+
+.panel-3{
+	width:10%;
+	float:left;
+	margin-left:10%;
+	border:2px solid black;
+	display:none;
+
+}
+
+
+</style>
+</head>
+<body>
+<section class="wrapper clearfix">
+<div class="btn" >
+ <button data-panelid="panel-11"> btn-1 </button>
+</div>
+
+ <div class="btn" > 
+ <button data-panelid="panel-22"> btn-2 </button>
+</div>
+
+<div class="btn" >
+ <button data-panelid="panel-33"> btn-3 </button>
+</div>
+</section>
+
+<section class="box2 clearfix">
+	<div class="panel-1">
+		panel1
+	</div>
+     
+     <div class="panel-2">
+     	panel2
+     </div>
+     <div class="panel-3">
+     	panel3
+     </div>
+</section>
+
+<div class="test"></div>
+<div id="test1"></div>
+<footer></footer>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+
+function content(zaid){
+ zaid.html("hi")
+}
+
+content();
+
+
+
+
+// $(".test").on("click",function(){
+// var wrestler=$(".test").attr("wwe");
+// $("#test1").text(wrestler)
+
+// });
+
+
+// function hideShowPanel(event){
+// 	var clickedBtn = $(event.target)
+// }
+
+// hideShowPanel("Zaid")
+// hideShowPanel("Shoaib")
+// hideShowPanel("Malika")
+
+
+// $(".btn").on('click', hideShowPanel);
+
+
+
+
+
+ });	
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCtype.html>
+<html>
+	<head>
+	</head>	
+		<body>
+		<body style="font-family:Arial">
+    Skills :
+    <input type="checkbox" name="skills" value="JavaScript" />JavaScript
+    <input type="checkbox" name="skills" value="jQuery" />jQuery
+    <input type="checkbox" name="skills" value="C#" />C#
+    <input type="checkbox" name="skills" value="VB" />VB
+    <br /><br />
+    Preferred Cities :
+    <input type="checkbox" name="cities" value="New York" />New York
+    <input type="checkbox" name="cities" value="New Delhi" />New Delhi
+    <input type="checkbox" name="cities" value="London" />London
+    <br /><br />
+    <input id="btnGetSelectedSkills" type="submit" value="Get Selected Skills" />
+    <input id="btnGetSelectedCities" type="submit" value="Get Selected Cities" />
+    <br /><br />
+     Selected Skills:<br />
+    <div id="divskills"></div>
+    <br />
+    Selected Cities:<br />
+    <div id="divcities"></div>
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  $("#btnGetSelectedSkills").on("click" , function(){
+     getSelectedCheckboxes("skills");
+  
+  });
+  
+  $("#btnGetSelectedCities").on("click" , function(){
+     getSelectedCheckboxes("cities");
+     
+  });
+ 
+
+  var getSelectedCheckboxes = function(groupName){
+    var result = $('input[name="' + groupName + '"]:checked');
+  var resultString = result.length + " checkboxes is checked</br>";
+     if(result.length > 0){
+   result.each(function(index,element){
+  
+ resultString = resultString +$(element).val() + "</br>";
+   });
+      
+      
+      $("#div" + groupName).html(resultString);
+      }
+   else{
+     $("#div" + groupName).html("no checkbox is selected");
+   }
+    
+    };
+   });
+
+
+
+	</script>
+
+
+
+
+
+
+
+		</body>
+
+</html>

@@ -109,7 +109,7 @@ float:left;
 
 <div class="test"></div>
 <div id="test1"></div>
-<footer></footer>
+<footer class="kane"></footer>
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -118,12 +118,16 @@ float:left;
 $(document).ready(function(){
 
 
-function setContent(htmlelement, content){
-   htmlelement.html(content)
+
+function setContent(htmlelement, content,){
+  htmlelement.html(content)
+ 
 }
 
 setContent($('.test'), "Hello Test");
-setContent($('#test1'), "Hello zaid");
+setContent($('#test1'), "Hello  1");
+setcontent($('.kane'), "zaid");
+
 
 // function hideShowPanel(event){
 // 	var clickedBtn = $(event.target)

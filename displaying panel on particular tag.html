@@ -81,16 +81,16 @@ float:left;
 </head>
 <body>
 <section class="wrapper clearfix">
-<div class="btn" >
- <button data-panelid="panel-11"> btn-1 </button>
+<div class="btn"  data-panelid="panel-1" >
+ <button> btn-1 </button>
 </div>
 
- <div class="btn" > 
- <button data-panelid="panel-22"> btn-2 </button>
+ <div class="btn" data-panelid="panel-2" > 
+ <button> btn-2 </button>
 </div>
 
-<div class="btn" >
- <button data-panelid="panel-33"> btn-3 </button>
+<div class="btn" data-panelid="panel-3" >
+ <button> btn-3 </button>
 </div>
 </section>
 
@@ -117,13 +117,24 @@ float:left;
 <script>
 $(document).ready(function(){
 
+// 	$(".btn-1").on('click', function(){
+//     var name="zaid";
+//      alert("hello"+name);
+	
+// 	});
 
-function content(zaid){
- zaid.html("hi")
-}
+// $(".btn-2").on("click",function(){
+//  var name="<h2>this is button 2</h2>";
+//  $(".panel-1").html(name);
 
-content();
+// // alert()
+// });
 
+$(".btn").on("click" , function(){
+var zaid=$(this).attr("data-panelid");
+ $("."+zaid).toggle();
+
+});
 
 
 

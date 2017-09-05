@@ -1,0 +1,48 @@
+<!DOCtype.html>
+<html>
+<head>
+	<style>
+		.hide {
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+<h1>HEADING H1</h1>
+<p class="hide">this is heading h1</p>
+
+<h1>HEADING H2</h1>
+<p class="hide">this is heading h2</p>
+
+<h1>HEADING H3</h1>
+<p class="hide">this is heading h3</p>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+	   $("p").hide();
+
+  
+  
+	$("h1").on("click" , function(){
+	   // $("p").slideUp();
+	   // $(this).next().slideToggle();
+
+	   $("p").not($(this).next()).slideUp();
+	   $(this).next().slideToggle()
+
+
+	   
+	 });  
+	
+
+});
+
+
+</script>
+
+</body>
+
+</html>

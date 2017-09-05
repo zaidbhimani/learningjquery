@@ -1,0 +1,39 @@
+<!DOCtype.html>
+<html>
+	<head>
+	</head>	
+		<body style="font-family:Arial">
+    Country:
+    <select id="selectCountries">
+        <option selected="selected" value="USA">United States</option>
+        <option value="IND">India</option>
+        <option value="UK">United Kingdom</option>
+        <option value="CA">Canada</option>
+        <option value="AU">Australia</option>
+    </select>
+    <br /><br />
+    <div id="divResult"></div>
+</body>
+   
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+    <script>
+    
+       $(document).ready(function(){
+
+$("#selectCountries").on("change" , function(){
+
+var result= $("#selectCountries option:selected");
+$("#divResult").html("value=" + result.val() + ",text=" + result.text());
+
+});
+ 
+
+
+ });
+
+    </script>
+
+    </body>
+    </html>

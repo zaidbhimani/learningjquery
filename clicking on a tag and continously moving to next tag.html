@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+ <title>Demo</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <style type="text/css">p {background-color: yellow;}</style>
+</head>
+
+<body>
+ <h1 id="head1">Heading 1</h1>
+ <p>First line of text.</p>
+ <p>Second line of text.</p>
+ <p>Third line of text.</p>
+ <img id ="picture" src="eightball.gif" alt="eight ball" />
+ 
+ <!-- <script type="text/javascript" src="jquery-1.8.0.min.js"></script> -->
+ <!-- <script type="text/javascript" src="my_code.js"></script> -->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+
+     var linenumber = 0;
+     $("#head1").on("click",function(){
+     $("p").css("background-color","yellow");
+     $("p").eq(linenumber).css("background-color","red");
+     linenumber++;
+
+    //  if(linenumber > 2){linenumber = 0;}
+     });
+  
+	});
+
+</script>
+
+
+</body>
+
+</html>

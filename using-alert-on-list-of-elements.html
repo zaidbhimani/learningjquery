@@ -1,0 +1,26 @@
+<!DOCtype.html>
+<html>
+	<head>
+	</head>
+	<body style="font-family:Arial">
+    <ul>
+        <li>US</li>
+        <li>India</li>
+        <li>UK</li>
+        <li>Canada</li>
+        <li>Australia</li>
+    </ul>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+$("li").each(function(index,element){
+
+result = index + ":" + $(element).text();  
+alert(result);
+});
+		});
+	</script>
+</body>	
+	
+</html>

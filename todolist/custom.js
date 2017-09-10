@@ -71,13 +71,13 @@ $(".new-text").on("click", '.edit', function(evt) {
   $(".editBtn").on("click", function(){
     // Previous Content SHow
     $li.find("> span").show();
+    var zaid = $(".editform").val(); 
 
     // edit for hide
     $(".editform").hide();
     $(".editBtn").hide();
      
     // value to set
-    var zaid = $(".editform").val(); 
     $li.find(".text").html(zaid);
   })
 

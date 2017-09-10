@@ -14,11 +14,11 @@ $(document).ready(function(){
                 "book8": "medical",
                 "book9": "disease",   
             }*/ 
-var listgroup = {
- geo:["plants","animals","earth"],
- history:["mugal","shivaji","afzalkhan"],
- science:["alien","medical","disease"]
-};
+var listgroup = [
+ ["plants","animals","earth"],
+ ["mugal","shivaji","afzalkhan"],
+ ["alien","medical","disease"]
+];
 
 /* $("<li />", {
               class:"foo",
@@ -27,7 +27,7 @@ var listgroup = {
            }).appendTo($("#divResult"))*/ 
   $(".btn").on("click" ,function(evt){ 
        var clickedname = $(evt.target).attr("data-name");
-
+      
        $(evt.target).addClass("active");
        $(evt.target).siblings().removeClass("active")
 
@@ -35,7 +35,7 @@ var listgroup = {
        var result="";
        $.each(listgroupitem, function(index,item){
            result=result+item+"<br/>";
-      })
+      });
      $("#divResult").html(result)
   });
 

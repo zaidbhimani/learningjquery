@@ -4,7 +4,7 @@
     <style>
 .input-wrapper{
     width:550px;
-    height:120px;
+    height:110px;
    background-color:#F44336;
    margin-left:auto;
    margin-right:auto;
@@ -28,12 +28,13 @@
     font-size: 20px;
         margin-left: 172px;
         color: white;
-        padding-top: 37px;
+        padding-top: 28px;
 }
 .ad{
         width: 80px;
         height: 37px; 
         font-size:16px; 
+        background-color:#D9D9D9; 
 }
 .stat{
         width: 243px;
@@ -42,7 +43,7 @@
         margin-top: 10px;
 }
 .new-text{
-    margin-left:350px; 
+    margin-left:362px; 
 }
 .text {
         font-size: 19px;
@@ -50,27 +51,39 @@
         width: 381px;
 }
 .edit{
-    width: 70px;
+        width: 70px;
         height: 20px;
         font-size: 13px;
-        margin-left: 3px;}
+        margin-left: 3px;
+        background-color:#D9D9D9; 
+    }
 .del{
         width: 70px;
         height: 20px;
-        font-size: 13px;}
+        font-size: 13px;
+        background-color:#D9D9D9; 
+    }
 
 .editform{
-  width:447px;
+  width:455px;
         }
 
 .editBtn{
        width: 70px;
         height: 20px;
         font-size: 13px;
+        background-color:#D9D9D9;
 }
+
 
 li{
     line-height: 1.5;
+    list-style:none;
+    width:530px; 
+}
+
+li:hover{
+    background-color:#ddd; 
 }
     .active {
         text-decoration: line-through;
@@ -78,11 +91,15 @@ li{
     </style>
 </head>
 <body>
+
+
     <div class="title">THE TO DO LIST USING JQUERY</div>
     <div class="input-wrapper">
     <div class="inside-title">My TO DO LIST</div>
-    <input id="int" type="text" placeholder="click here to add...." />
-    <button class="ad">add</button>
+    <form id="addTodo">
+        <input id="int" type="text" placeholder="click here to add...." />
+        <button type="submit" class="ad">add</button>
+    </form>
     </div>
     <div class="stat"></div>
     <ul class="new-text">

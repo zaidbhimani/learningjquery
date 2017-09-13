@@ -1,0 +1,133 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<style>
+			.image{
+				width:200px;
+				height:200px;
+			}
+            .image img{
+				width:100%;
+				height:100%;
+			}
+		
+               .bigimage {
+                 width: 100%;
+                 height: 100%;
+                 position: fixed;
+                 top: 0;
+                 background: rgba(0,0,0,.89);
+                 /*left: 205px;*/
+                 display:none; 
+            }
+
+			.image-cover{
+                  width: 60%;
+                 height: 400px;
+                 position: fixed;
+                 top: 0;
+                 left: 280px;
+                 
+			}
+
+			.image-cover img{
+				width:100%;
+				height:100%;
+			} 
+            
+            /*.big-image2 {
+                 width: 60%;
+                 height: 400px;
+                 position: fixed;
+                 top: 0;
+                 left: 205px;
+                 display:none; 
+            }
+
+           .big-image2 img{
+				width:100%;
+				height:100%;
+			} 
+
+			.big-image3 {
+                 width: 60%;
+                 height: 400px;
+                 position: fixed;
+                 top: 0;
+                 left: 205px;
+                 display:none; 
+            }
+
+           .big-image3 img{
+				width:100%;
+				height:100%;
+			} */
+
+           .text{
+           	color:white;
+            font-size:30px;
+            text-align:center;  
+           }
+
+		  .active{
+		  	width:250px;
+		  	height:210px;
+		  }
+		
+            
+
+		</style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+<body>
+	
+<div class="container-fluid">
+ 
+ <div class="row">
+	<div class="col-md-2">
+	 <div class="image" data-name="big-image">
+		<img src="the rock.jpg"/>
+	</div>
+	</div>
+   
+<div class="col-md-2">
+	 <div class="image" data-name="big-image2">
+		<img src="the rock2.jpg"/>
+	</div></div>
+
+	<div class="col-md-2">
+	 <div class="image" data-name="big-image3">
+		<img src="the rock3.jpg"/>
+	</div></div>
+
+</div><!--end of row-->
+
+<div class="bigimage" id="big-image" data-poster="poster1">
+	<div class="image-cover">
+	<img src="the rock.jpg"/>
+   <div class="text">he is a bodybulider and wrestler</div>
+   </div>
+</div>
+
+<div class="bigimage" id="big-image2" data-poster="poster2">
+	<div class="image-cover">
+	<img src="the rock2.jpg"/>
+   <div class="text">he is a bodybulider and wrestler</div>
+    </div>
+</div>
+
+<div class="bigimage" id="big-image3" data-poster="poster3">
+	<div class="image-cover">
+	<img src="the rock3.jpg"/>
+	<div class="text">he is a bodybulider and wrestler</div>
+    </div>
+</div>
+
+
+</div><!--end of container-fluid--> 
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+ <script src="custom.js"></script>
+</body>
+</html>

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
     <style>
 .input-wrapper{
     width:550px;
@@ -8,7 +11,8 @@
    background-color:#F44336;
    margin-left:auto;
    margin-right:auto;
-   margin-top: 20px; 
+   margin-top: 20px;
+   border-radius:3px; 
 }
  
 .title{
@@ -20,21 +24,34 @@
 #int{
         margin-top: 5px;
         width: 423px;
-        height: 32px;
+        height: 27px;
         margin-left: 21px;
         font-size: 16px;
+        border-radius:6px;
 }
 .inside-title{
-    font-size: 20px;
+        font-size: 20px;
         margin-left: 172px;
         color: white;
         padding-top: 28px;
+        font-family: 'Roboto', sans-serif;
 }
 .ad{
-        width: 80px;
-        height: 37px; 
+        width: 70px;
+        height: 33px; 
         font-size:16px; 
-        background-color:#D9D9D9; 
+        background-color:#D9D9D9;
+         border-radius:6px;
+         font-family: 'PT Sans', sans-serif;
+         padding-bottom: 8px;
+         padding-top: 4px;
+         padding-left: 5px;
+         padding-right: 5px;
+         cursor:pointer;   
+}
+
+.ad:hover {
+    background-color: #bbb;
 }
 .stat{
         width: 243px;
@@ -49,30 +66,55 @@
         font-size: 19px;
         display: inline-block;
         width: 381px;
+        font-family: 'Source Sans Pro', sans-serif;
 }
 .edit{
         width: 70px;
-        height: 20px;
-        font-size: 13px;
+        height: 33px;
+        font-size: 14px;
         margin-left: 3px;
-        background-color:#D9D9D9; 
-    }
-.del{
-        width: 70px;
-        height: 20px;
-        font-size: 13px;
-        background-color:#D9D9D9; 
+        background-color:#db4c3f;;
+         border-radius:6px;
+         font-family: 'PT Sans', sans-serif;
+         cursor:pointer;
+         color:white;  
     }
 
-.editform{
-  width:455px;
+.edit:hover{
+  border-color: #b0281a;
+    background-color: #c53727;
+}
+
+.del{
+        width: 70px;
+        height: 33px;
+        font-size: 14px;
+        background-color:#D9D9D9;
+         border-radius:6px;
+         font-family: 'PT Sans', sans-serif;
+         cursor:pointer;  
+    }
+
+    .del:hover {
+    background-color: #bbb;
+}
+
+    .editform{
+          width:455px;
+          height:26px;
+          font-size:20px;
+          border-radius:6px;
+          font-family: 'Source Sans Pro', sans-serif;
         }
 
 .editBtn{
-       width: 70px;
-        height: 20px;
-        font-size: 13px;
+        width: 70px;
+        height: 33px;
+        font-size: 14px;
         background-color:#D9D9D9;
+        border-radius:6px;
+        font-family: 'PT Sans', sans-serif;
+        cursor:pointer; 
 }
 
 

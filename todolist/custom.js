@@ -78,15 +78,17 @@ $(".new-text").on("click", '.edit', function(evt) {
   $li.append('<form class="newtodolist"><input class="editform" type="text" value="' + $litext +'" /><button class="editBtn" type="submit">Save</button</form>')
 
     $(".editform").focus();
+    
   $(".newtodolist").on("submit", function(evt){
     // Previous Content SHow
    evt.preventDefault();
     $li.find("> span").show();
-    var zaid = $(".editform").val(); 
-
+    
+    var zaid = $(".editform").val();
+       
     // edit for hide
-    $(".editform").hide();
-    $(".editBtn").hide();
+    $(".editform").remove();
+    $(".editBtn").remove();
      
     // value to set
     $li.find(".text").html(zaid);

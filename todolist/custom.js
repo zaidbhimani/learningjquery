@@ -1,8 +1,18 @@
 $(document).ready(function() {
   var statement = "plz mention your task";
+
+
+
+
+
+$("#int").focus();
+
+
   
-  $(".ad").on("click", function() {
-  
+  $("#addTodo").on("submit", function(evt) {
+  evt.preventDefault();
+
+
   var text = $("#int").val();
   
   if($("#int").val().length > 0){
@@ -33,7 +43,7 @@ $(".stat").html("");
 
 
 
-  $(".done").on("click", function(evt) {
+  $(".new-text").on("click",".text", function(evt) {
     // $(evt.target).toggleClass("active");
    //1) on clicking if a particular tag has a class active 
     //2)then remove that class.
@@ -65,17 +75,20 @@ $(".new-text").on("click", '.edit', function(evt) {
 
 
   //new Input Tag
-  $li.append('<input class="editform" type="text" value="' + $litext +'" /><button class="editBtn">Save</button')
+  $li.append('<form class="newtodolist"><input class="editform" type="text" value="' + $litext +'" /><button class="editBtn" type="submit">Save</button</form>')
 
-
-  $(".editBtn").on("click", function(){
+    $(".editform").focus();
+    
+  $(".newtodolist").on("submit", function(evt){
     // Previous Content SHow
+   evt.preventDefault();
     $li.find("> span").show();
-    var zaid = $(".editform").val(); 
-
+    
+    var zaid = $(".editform").val();
+       
     // edit for hide
-    $(".editform").hide();
-    $(".editBtn").hide();
+    $(".editform").remove();
+    $(".editBtn").remove();
      
     // value to set
     $li.find(".text").html(zaid);

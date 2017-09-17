@@ -26,7 +26,9 @@
 
      var result = "";
     $.each(employeeJson, function(key, value){
-     result = result + key + '   ' + value + "<br/>";
+     console.log(key)
+     console.log(value)
+     result = result + key +  value + "<br/>";
     });
    
    

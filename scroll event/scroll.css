@@ -1,0 +1,1110 @@
+* {
+  /*border:1px solid red;*/
+}
+
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    z-index: 1;
+    /*margin-top:120px; */
+     }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  background-color: #f3f3f3;
+}
+
+.header {
+  background-color: #2874f0;
+  color: white;
+  height: 120px;
+}
+
+.text-logo {
+  font-size: 25px;
+  margin-top: 35px;
+  margin-left: 80px;
+  float: left;
+  font-family: 'Fugaz One', cursive;
+}
+
+.textarea input {
+  margin-left: 20px;
+  margin-top: 35px;
+  width: 900px;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 20px;
+  float: left;
+  color: black;
+}
+
+.search {
+  width: 63px;
+  height: 34.4px;
+  background-color: yellow;
+  float: left;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.glyphicon {
+  color: black;
+  margin-top: 10px;
+}
+
+.frontbar {
+  margin-top: 75px;
+}
+
+.frontbar ul li {
+  list-style: none;
+  float: left;
+  text-decoration: none;
+  font-size: 15px;
+  width: 150px;
+  text-align: center;
+  margin-top: 9px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.frontbar ul {
+  margin-left: 190px;
+}
+
+.frontbar .entity {
+  width: 100px;
+}
+
+.image-container {
+  width: 100%;
+  height: 400px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  margin-top: 25px;
+  background-color: #ffffff;
+}
+
+.col-md-2 {
+  /*height:300px;*/
+}
+
+.deals-of-the-day-text {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.deals-of-the-day-button {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.deals-of-the-day-button button {
+  width: 90px;
+  height: 40px;
+  background-color: #2874f0;
+  color: white;
+  border-radius: 5px;
+  border-outline: none;
+}
+
+.deals-image1 {
+  width: 100%;
+  height: 200px;
+}
+
+.deals-image1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-title {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.product-discount {
+  color: green;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.product-description {
+  opacity: 0.6;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.featured-brands {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.featured-brands-img {
+  width: 100%;
+  height: 200px;
+}
+
+.featured-brands-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#first-title {
+  font-size: 15px;
+  color: #565656;
+  font-weight: 500;
+  padding: 0 7px;
+}
+
+.site-information li {
+  list-style: none;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 11px;
+  padding: 2px;
+  padding: 0 7px;
+  line-height: 23px;
+}
+
+.box {
+  width: 200px;
+  margin: auto;
+}
+
+.box1 {
+  width: 200px;
+  margin: auto;
+}
+
+.box2 {
+  width: 200px;
+  margin: auto;
+}
+
+.image1 {
+  width: 30px;
+  height: 55px;
+  float: left;
+}
+
+.image1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.track-container {
+  font-size: 20px;
+  width: 150px;
+  margin-left: 40px;
+}
+
+.order-container {
+  font-size: 20px;
+  width: 60px;
+  margin-left: 60px;
+}
+
+.image2 {
+  width: 50px;
+  height: 55px;
+  float: left;
+}
+
+.image2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.free-container {
+  font-size: 20px;
+  width: 110px;
+  margin-left: 60px;
+}
+
+.return-container {
+  font-size: 20px;
+  width: 60px;
+  margin-left: 75px;
+}
+
+.image3 {
+  width: 50px;
+  height: 55px;
+  float: left;
+}
+
+.image3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.online-container {
+  font-size: 20px;
+  width: 110px;
+  margin-left: 90px;
+}
+
+.cancel-container {
+  font-size: 20px;
+  width: 60px;
+  margin-left: 60px;
+}
+
+.policies {
+  margin-top: 40px;
+  width: 500px;
+  float: left;
+}
+
+.first-policy {
+  float: left;
+  list-style: none;
+}
+
+.policy-title {
+  list-style: none;
+  float: left;
+  border-right: 1px solid black;
+  width: 95px;
+  text-align: center;
+}
+
+.policy-title1 {
+  list-style: none;
+  float: left;
+  border-right: 1px solid black;
+  width: 65px;
+  text-align: center;
+}
+
+.policy-title2 {
+  list-style: none;
+  float: left;
+  border-right: 1px solid black;
+  width: 65px;
+  text-align: center;
+}
+
+.policy-title3 {
+  list-style: none;
+  float: left;
+  width: 75px;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 40px;
+  float: left;
+  margin-left: 20px;
+}
+
+.touch {
+  float: left;
+}
+
+.keep {
+  float: left;
+  margin-top: 40px;
+  margin-left: 350px;
+}
+
+.social-container {
+  float: left;
+}
+
+.social {
+  width: 50px;
+  float: left;
+}
+
+.facebook {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-top: 33px;
+  margin-left: 5px;
+}
+
+.facebook img {
+  width: 100%;
+  height: 100%;
+}
+
+.twitter {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-top: 33px;
+  margin-left: 5px;
+}
+
+.twitter img {
+  width: 100%;
+  height: 100%;
+}
+
+.google {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-top: 33px;
+  margin-left: 5px;
+}
+
+.google img {
+  width: 100%;
+  height: 100%;
+}
+
+.youtube {
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin-top: 33px;
+  margin-left: 5px;
+}
+
+.youtube img {
+  width: 100%;
+  height: 100%;
+}
+
+.mail-container {
+  margin-left: 23px;
+  margin-top: 30px;
+}
+
+#mail {
+  color: #565656;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#office {
+  color: #565656;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.address {
+  font-size: 12px;
+}
+
+.office-container {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 370px) {
+  .header {
+    height: auto;
+  }
+
+  .text-logo {
+    float: none;
+    margin-left: 0;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .textarea input {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .search {
+    float: none;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .frontbar {
+    display: none;
+  }
+
+  .image-container {
+    margin-top: 20px;
+    height: 200px;
+  }
+
+  .deals-of-the-day-text {
+    margin-top: 80px;
+  }
+
+  .deals-image1 {
+    margin-top: 60px;
+  }
+
+  .featured-brands {
+    text-align: center;
+    font-size: 25;
+  }
+
+  .featured-brands-img {
+    margin-top: 30px;
+  }
+
+  .site-information {
+    display: none;
+  }
+
+  .box {
+    width: 135px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box1 {
+    width: 160px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box2 {
+    width: 180px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .policies {
+    width: 100%;
+    float: none;
+    display: none;
+  }
+
+  .policies ul {
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .policy-title2 {
+    margin-left: 82px;
+    margin-top: 8;
+  }
+
+  .policy-title3 {
+    margin-top: 8;
+  }
+
+  .keep {
+    float: none;
+    font-size: 25px;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .social {
+    width: 48%;
+  }
+
+  .touch {
+    float: none;
+  }
+
+  .social-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    float: none;
+  }
+
+  .mail-container {
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .office-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} /*end of min-width:370px;*/
+
+@media screen and (min-width: 370px) and (max-width: 500px) {
+  .header {
+    height: auto;
+  }
+
+  .text-logo {
+    float: none;
+    margin-left: 0;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .textarea input {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .search {
+    float: none;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .frontbar {
+    display: none;
+  }
+
+  .image-container {
+    margin-top: 20px;
+    height: 200px;
+  }
+
+  .deals-of-the-day-text {
+    margin-top: 80px;
+  }
+
+  .deals-image1 {
+    margin-top: 60px;
+  }
+
+  .featured-brands {
+    text-align: center;
+    font-size: 25;
+  }
+
+  .featured-brands-img {
+    margin-top: 30px;
+  }
+
+  .site-information {
+    display: none;
+  }
+
+  .box {
+    width: 135px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box1 {
+    width: 160px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box2 {
+    width: 180px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .policies {
+    width: 100%;
+    float: none;
+    display: none;
+  }
+
+  .policies ul {
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .policy-title2 {
+    margin-left: 82px;
+    margin-top: 8;
+  }
+
+  .policy-title3 {
+    margin-top: 8;
+  }
+
+  .keep {
+    float: none;
+    font-size: 25px;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .social {
+    width: 24%;
+  }
+
+  .touch {
+    float: none;
+  }
+
+  .social-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    float: none;
+  }
+
+  .mail-container {
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .office-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} /*end of (min-width:370px) and (max-width:500px)*/
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .text-logo {
+    font-size: 30px;
+    margin-left: 0px;
+    float: none;
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+  }
+
+  .textarea input {
+    margin-left: 0px;
+    width: 90%;
+    line-height: 35px;
+    padding-left: 0px;
+    float: left;
+    text-align: center;
+  }
+
+  .search {
+    width: 10%;
+    height: 30%;
+  }
+
+  .frontbar {
+    display: none;
+  }
+
+  .deals-image1 {
+    margin-top: 20px;
+  }
+
+  .deals-of-the-day-text {
+    margin-top: 97px;
+  }
+
+  .featured-brands {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .site-information {
+    display: none;
+  }
+
+  .box {
+    width: 21%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .box1 {
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box2 {
+    width: 28%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .policies {
+    width: 74%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .copyright {
+    margin-top: 100px;
+    text-align: center;
+    float: none;
+    margin-left: 0;
+  }
+
+  .touch {
+    width: 42%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .keep {
+    margin-left: 0;
+    width: 42%;
+    text-align: center;
+  }
+
+  .mail-container {
+    text-align: center;
+  }
+
+  .office-container {
+    text-align: center;
+  }
+
+  .deals-wrapper {
+    width: 48%;
+    float: left;
+  }
+  .social {
+    width: 24%;
+  }
+
+  .facebook {
+    width: 100%;
+  }
+  .youtube {
+    width: 100%;
+  }
+  .twitter {
+    width: 100%;
+  }
+  .google {
+    width: 100%;
+  }
+
+  .social-container {
+    width: 58%;
+  }
+
+  .policies {
+    float: none;
+    width: 100%;
+  }
+  .policies ul {
+    width: 97%;
+  }
+
+  .first-policy {
+    width: 12%;
+    text-align: center;
+  }
+
+  .policy-title {
+    width: 20%;
+    text-align: center;
+  }
+
+  .policy-title1 {
+    width: 12%;
+    text-align: center;
+  }
+
+  .policy-title2 {
+    width: 13%;
+    text-align: center;
+  }
+
+  .policy-title3 {
+    width: 17%;
+    text-align: center;
+  }
+} /*end of (min-width:500px) and (max-width:800px)*/
+
+@media screen and (min-width: 801px) and (max-width: 990px) {
+  .header {
+    background-color: #2874f0;
+    color: white;
+    height: auto;
+  }
+
+  .text-logo {
+    font-size: 334%;
+    margin-top: 35px;
+    margin-left: 0px;
+    float: none;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+  }
+
+  .textarea input {
+    margin-left: 0px;
+    margin-top: 2%;
+    width: 90%;
+    line-height: 35px;
+    padding-left: 0px;
+    */: left;
+    text-align: center;
+  }
+
+  .search {
+    width: 10%;
+    margin-top: 2%;
+  }
+
+  .frontbar ul {
+    margin-left: 0px;
+  }
+
+  .frontbar ul li {
+    width: 16%;
+    text-align: center;
+  }
+
+  .frontbar .entity {
+    width: 11%;
+  }
+
+  .deals-wrapper {
+    width: 33%;
+    float: left;
+  }
+
+  .deals-image1 {
+    margin-top: 10%;
+  }
+
+  .deals-of-the-day-text {
+    margin-top: 57px;
+  }
+
+  .featured-brands {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4%;
+  }
+
+  .site-information {
+    margin-bottom: 6%;
+    text-align: center;
+  }
+
+  #first-title {
+    font-size: 143%;
+  }
+
+  #first-title {
+    font-size: 105%;
+  }
+
+  .site-information li {
+    font-size: 79%;
+  }
+
+  .box {
+    width: 48%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box1 {
+    width: 56.33%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .box2 {
+    width: 62.33%;
+    margin: auto;
+    margin-top: 20px;
+    float: left;
+  }
+
+  .policies {
+    float: left;
+    width: 70%;
+  }
+  .policies ul {
+    width: 100%;
+  }
+
+  .first-policy {
+    width: 10%;
+    text-align: center;
+  }
+
+  .policy-title {
+    width: 18%;
+    text-align: center;
+  }
+
+  .policy-title1 {
+    width: 11%;
+    text-align: center;
+  }
+
+  .policy-title2 {
+    width: 11%;
+    text-align: center;
+  }
+
+  .policy-title3 {
+    width: 14%;
+    text-align: center;
+  }
+
+  .copyright {
+    margin-top: 40px;
+    float: left;
+    margin-left: 0px;
+    text-align: center;
+    width: 30%;
+  }
+
+  .site-information {
+    width: 33.33%;
+    float: left;
+  }
+
+  .mail-container {
+    width: 50%;
+    float: left;
+    margin-left: 0;
+  }
+  .office-container {
+    width: 50%;
+    float: left;
+  }
+
+  .touch {
+    width: 38%;
+    float: none;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .keep {
+    width: 35%;
+    float: left;
+    margin-left: 0;
+    text-align: center;
+  }
+  .social-container {
+    width: 50%;
+  }
+
+  .social {
+    width: 25%;
+    margin-left: 0;
+  }
+
+  .facebook {
+    width: 72%;
+    margin-left: 0;
+  }
+
+  .twitter {
+    width: 72%;
+    margin-left: 0;
+  }
+  .google {
+    width: 72%;
+    margin-left: 0;
+  }
+  .youtube {
+    width: 72%;
+    margin-left: 0;
+  }
+} /*end of (min-width:801px) and (max-width:990px)*/
+
+@media screen and (min-width: 991px) and (max-width: 1301px) {
+  .text-logo {
+    font-size: 178%;
+    margin-left: 0%;
+    width: 15%;
+    text-align: center;
+  }
+
+  .textarea input {
+    width: 78%;
+    margin-left: 0;
+  }
+
+  .search {
+    width: 7%;
+  }
+
+  ._2BhAHa {
+    margin-left: 43%;
+    width: 100%;
+  }
+
+  .frontbar ul {
+    margin-left: 10%;
+  }
+
+  .frontbar ul li {
+    width: 17%;
+  }
+
+  .frontbar .entity {
+    width: 12%;
+  }
+
+  .featured-brands {
+    font-size: 206%;
+  }
+
+  .policies {
+    width: 50%;
+    float: left;
+  }
+
+  .policy-title {
+    width: 20%;
+  }
+
+  .policy-title1 {
+    width: 13%;
+  }
+
+  .policy-title2 {
+    width: 12%;
+  }
+
+  .policy-title3 {
+    width: 18%;
+  }
+
+  .copyright {
+    width: 17%;
+    float: left;
+    margin-left: 0px;
+  }
+
+  .touch {
+    width: 30%;
+    float: right;
+  }
+
+  .keep {
+    margin-left: 0;
+  }
+}

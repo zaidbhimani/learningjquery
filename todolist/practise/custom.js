@@ -12,6 +12,7 @@ else{
 	var stat="plz enter your task";
     $(".caution").text(stat);
 }
+
 $("#inp").val("");
 });
 

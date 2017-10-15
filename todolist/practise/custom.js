@@ -19,9 +19,19 @@ $(document).ready(function() {
 		$(".caution").text("");
 	});
 
+<<<<<<< HEAD
+else{
+	var stat="plz enter your task";
+    $(".caution").text(stat);
+}
+
+$("#inp").val("");
+});
+=======
 	$(".content-list").on("click", ".del", function(evt) {
 		evt.target.closest("li").remove();
 	});
+>>>>>>> c1b94f99031cd7d91a2574d1359bded8ac634789
 
 	$(".content-list").on("click", ".done", function(evt) {
 		if ($(evt.target).hasClass("active")) {
